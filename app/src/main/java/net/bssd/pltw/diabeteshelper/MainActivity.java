@@ -1,4 +1,5 @@
 //Testing the sync down
+//Test two
 package net.bssd.pltw.diabeteshelper;
 
 import android.app.Activity;
