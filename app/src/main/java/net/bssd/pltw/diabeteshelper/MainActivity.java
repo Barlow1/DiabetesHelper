@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.TextView;
 
 
 //Test Pull Request
@@ -23,6 +24,7 @@ import android.widget.EditText;
 public class MainActivity extends Activity {
 
     public EditText mCalories;
+    public TextView mNumberCalories;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
