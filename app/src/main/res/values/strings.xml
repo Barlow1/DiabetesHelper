@@ -5,6 +5,8 @@
     <string name="greeting">Hello, Let\'s Start Recording Todays Data!</string>
     <string name="action_settings">Settings</string>
     <string name="caloric_intake">Caloric Intake</string>
+    <string name="enter_caloric_intake"> Enter Caloric Intake Here</string>
+
 
 
 </resources>

@@ -9,14 +9,28 @@ package net.bssd.pltw.diabeteshelper;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.EditText;
+
 
 //Test Pull Request
 
-//test two
+//test two 
 public class MainActivity extends Activity {
 
+    public EditText mCalories;
+
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.activity_main, container, false);
+
+        mCalories = (EditText) rootView.findViewById(R.id.enter_caloric_intake);
+        return rootView;
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
