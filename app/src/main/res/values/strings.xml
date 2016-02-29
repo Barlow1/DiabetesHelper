@@ -6,6 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="caloric_intake">Caloric Intake For Today</string>
     <string name="enter_caloric_intake"> Enter Caloric Intake Here</string>
+    <string name="caloric_number">0</string>
 
 
 
